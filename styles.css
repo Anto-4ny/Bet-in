@@ -101,7 +101,7 @@ main {
 }
 
 .bet-button {
-    background-color: #009900;
+    background-color: #75E2FF;
     color: white;
     padding: 5px 10px;
     border: none;
@@ -114,7 +114,7 @@ main {
 }
 
 button {
-    background-color: #009900;
+    background-color: #75E2FF;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -129,7 +129,7 @@ button:hover {
 }
 
 footer {
-    background-color: #009900;
+    background-color: #75E2FF;
     color: white;
     text-align: center;
     padding: 10px 0;
