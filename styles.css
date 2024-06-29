@@ -10,7 +10,6 @@ body {
 header {
     background-color: #009900;
     color: black;
-    position: fixed;
 }
 
 .top-bar {
@@ -31,7 +30,7 @@ header {
 }
 
 .deposit-button {
-    background-color: #fff;
+    background-color: black;
     color: #009900;
     border: none;
     padding: 10px 20px;
