@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betika Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Betika Clone</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sports">Sports</a></li>
+                <li><a href="#live">Live Betting</a></li>
+                <li><a href="#casino">Casino</a></li>
+                <li><a href="#virtuals">Virtuals</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="betting-content">
+            <h2>Available Bets</h2>
+            <div class="bet" onclick="addBet('Team A vs Team B', 2.5)">
+                <p>Team A vs Team B - Odds: 2.5</p>
+                <button class="bet-button">Bet Now</button>
+            </div>
+            <div class="bet" onclick="addBet('Team C vs Team D', 3.0)">
+                <p>Team C vs Team D - Odds: 3.0</p>
+                <button class="bet-button">Bet Now</button>
+            </div>
+        </section>
+        <aside id="betting-slip">
+            <h2>Betting Slip</h2>
+            <div id="slip-content">
+                <p>No bets placed yet.</p>
+            </div>
+            <button id="place-bet">Place Bet</button>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Betika Clone. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+  </html>
+  
