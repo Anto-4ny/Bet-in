@@ -13,6 +13,7 @@ header {
 }
 
 .top-bar {
+    background-color: #A1E1FA;
     display: flex;
     justify-content: space-between;
     align-items: center;
